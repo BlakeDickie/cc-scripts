@@ -1,4 +1,4 @@
-while !turtle.detectDown() do
+while not turtle.detectDown() do
     print("Going down!")
     turtle.down()
 end
